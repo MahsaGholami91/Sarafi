@@ -18,13 +18,23 @@
         url('../font/IRANSans-Light-web.ttf') format('truetype');
 }
 
+body {
+    background: url(../image/body.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    width: 100%;
+}
+
 * {
     font-family: 'iransans';
     direction: rtl;
     font-size: 14px;
 }
 .container {
-    margin-top: 5px;
+    margin: auto 10%;
+    
+
 }
 .drop-btn-style {
     border-radius: 30px;
