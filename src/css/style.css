@@ -32,13 +32,13 @@ body {
     font-size: 14px;
 }
 .container {
-    margin: auto 10%;
     
 
 }
 .drop-btn-style {
     border-radius: 30px;
     box-shadow: 2px 3px 15px 0px #dddddd75;
+    padding: 5px;
 }
 
 .call-icon1 {
@@ -74,22 +74,48 @@ body {
     background-color: unset !important;
 }
 nav.breadcrumb-nav {
-    padding: 10px 30px;
-    border: 1px solid;
+    padding: 20px 30px;
     border-radius: 50px;
+    box-shadow: 0px 0px 30px 4px #dddddd42;
+    background: white;
 }
 
 ol , ul ,li {
     margin: 0 !important;
     list-style: none;
+    padding: 0 !important ;
+}
+ul.navbar-nav {
+    gap: 45px;
+}
+a.nav-link {
+    font-size: 14px;
+    font-weight: bold;
+}
+a.nav-link:active , 
+a.nav-link.active {
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important;
+    background-color: #fd5b34;
+    border-radius: 30px;
 }
 
 .image-login {
-    width: 100%;
     border-radius: 40px;
 }
-
-
+.nav-menu {
+    width: 50%;
+    margin: 10px 0;
+}
+.first-head {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    gap: 40px;
+    margin: 10px 0;
+}
 .login-form {
     top: 0;
     left: 0;
@@ -98,11 +124,112 @@ ol , ul ,li {
     width: 50%;
     border-radius: 38px;
     padding: 40px;
+    text-align: center;
+    box-shadow: -10px 5px 30px 1px #dddddd7a;
+}
+.user-cellphone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F5F3FC;
+    border-bottom: 1px solid #F5F3FC;
+    padding: 20px 0;
+    margin: 25px;
+}
+i.fa-solid.fa-moon {
+    font-size: xx-large;
+}
+i.fa-solid.fa-phone-volume {
+    font-size: large;
+    color: #6d6a8ddb;
+}
+.s{
+    border-radius: 12px;
+    background: white;
+    padding: 10px;
+    margin-left: 15px;
 }
 
+.ss{
+    border-radius: 12px;
+    border: 2px solid #e1dfdf;
+    padding: 10px;
+    color: white;
+}
+.menu-fix{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+i.fa-solid.fa-caret-up {
+    position: absolute;
+    top: 97px;
+    left: 372px;
+    font-size: 22px;
+}
+.dark-btn {
+    box-shadow: 0px 2px 1px 1px #dddddd4f;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
 .part1 {
     background-color: #fd5b34;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* Section Break 5 */
+.section-break-5 { 
+    display: block;
+    height: 0;
+    margin: 1.75rem auto 1.5rem;
+    text-align: center;
+    width: 10%;
+    color: #EE6C4D;
+}
+    /* &:before {
+     
+      content: 'j';
+      display: inline-block;
+      left: 50%;
+      letter-spacing: 0;
+      text-indent: 0;
+      text-rendering: geometricPrecision;
+      transform: translateY(-65%);
+      width: 15px;
+    } */
+i.fa-regular.fa-user {
+    font-size: 30px;
+    color: #FF8A66;
+    margin-left: 15px;
+}
+
+.phone-input {
+    border-radius: 50px;
+    padding: 12px;
+}
+
+
+.phone-box label {
+    display: inline-block;
+    position: absolute;
+    bottom: 270px;
+    right: 70px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+/* End of login page */
+
+/* //////////////////////////////////////////////// */
