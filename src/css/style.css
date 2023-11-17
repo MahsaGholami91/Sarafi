@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Bold';
+    font-family: 'iransans';
     font-style: normal;
     font-weight: bold;
     src: url('../font/IRANSans-Bold-web.eot'),
@@ -78,6 +78,7 @@ nav.breadcrumb-nav {
     border-radius: 50px;
     box-shadow: 0px 0px 30px 4px #dddddd42;
     background: white;
+    margin: 30px 0 30px;
 }
 
 ol , ul ,li {
@@ -154,6 +155,7 @@ i.fa-solid.fa-phone-volume {
     border-radius: 12px;
     border: 2px solid #e1dfdf;
     padding: 10px;
+    position: relative;
     color: white;
 }
 .menu-fix{
@@ -163,9 +165,12 @@ i.fa-solid.fa-phone-volume {
 }
 i.fa-solid.fa-caret-up {
     position: absolute;
-    top: 97px;
-    left: 372px;
+    top: -13px;
+    left: 0;
+    right: 0;
+    margin: auto;
     font-size: 22px;
+    text-align: center;
 }
 .dark-btn {
     box-shadow: 0px 2px 1px 1px #dddddd4f;
@@ -175,10 +180,14 @@ i.fa-solid.fa-caret-up {
     height: 40px;
 }
 .part1 {
-    background-color: #fd5b34;
+    background-color: #EE6C4D;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    padding: 30px 25px 10px 20px;
+    border-radius: 0px 0 50px 50px;
+    text-align: center;
+    margin: 0 30px;
 }
 
 
@@ -218,18 +227,230 @@ i.fa-regular.fa-user {
     display: inline-block;
     position: absolute;
     bottom: 270px;
-    right: 70px;
+    right: 100px;
     background: #fff;
     padding: 0 10px;
 }
+.phone-box {
+    width: 90%;
+    margin: 25px;
+}
 
+.login-form button.btn.btn-primary {
+    width: 90%;
+    border-radius: 50px;
+    padding: 16px;
+    background: #EE6C4D;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 10px 0;
+}
 
+.forget-pass {
+    text-align: right;
+    margin: 20px;
+}
 
+.forget-pass a {
+    text-decoration: none;
+    color: #643DE6;
+}
+.not-registered {
+    margin: 10px 0;
+}
+.not-registered a {
+    color: #EE6C4D;
+}
 
+a {
+    text-decoration: none;
+}
 
+.license span{
+    color: #fff;
+}
 
+.license a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.social a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0 15px;
+}
 
+.social i {
+    font-size: 28px;
+}
+.vr{
+    color: #fff;
+    margin: 0 20px;
+}
 
+.designer {
+    color: #fff;
+}
+.part2 {
+    background: #fff;
+    box-shadow: 1px 0px 8px 0px #ddd;
+    border-radius: 30px;
+    padding: 0px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.position-relative {
+    margin: 100px 0;
+}
+.description.flex-column {
+    width: 30%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.list-of-product li {
+   display: flex;
+   align-items: center;
+}
+
+.list-of-product a {
+   color: #232323;
+ }
+.list-of-product hr {
+    width: 10px;
+    color: #EE6C4D;
+    margin-left: 4px;
+}
+.list-of-product {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.des {
+line-height: 30px;}
+
+.footer-position {
+}
+
+.footer {
+    margin: 150px 0 40px;
+}
+
+.part3 {
+    width: 36%;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+    height: 600px;
+}
+.ppppp {
+    height: 625px;
+    background-image: url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    bottom: -80px;
+    margin: auto;
+    width: 100%;
+}
+
+.part3-first {
+    position: absolute;
+    padding: 5px;
+    background-color: #F8F9FB;
+    border-radius: 8px;
+    width: 239px;
+    top: -14px;
+    margin: auto;
+    right: 97px;
+}
 /* End of login page */
 
 /* //////////////////////////////////////////////// */
+
+
+.currency-section {
+    background-image: url('../image/bitcoin-page/bit.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.currency-logo {
+    background-image: url('../image/bitcoin-page/bit-design.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10%;
+    text-align: center;
+}
+.currency-logo img {
+    text-align: center;
+    width: 50%;
+}
+.currency-abbreviation {
+    background-color: #643DE6;
+    border-radius: 30px;
+    text-align: center;
+}
+.currency-buy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 55px 0;
+    box-shadow: 0px 0px 48px -20px #ddd;
+    gap: 20px;
+}
+
+.currency-sell {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 55px 0;
+    box-shadow: 0px 0px 48px -20px #ddd;
+    gap: 20px;
+
+}
+
+.currency-section .d-flex {
+    gap: 15px;
+}
+
+.buy-detail .price span {
+    color:#EE232B;
+    font-weight: bold;
+}
+.buy-detail .price , .currency , .sell-detail .price , .currency{
+    color:#939AA4;
+}
+
+.buy-detail .cost , .sell-detail .cost {
+    color: #2D365D;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.sell-detail .price span {
+    color:#49BE78;
+    font-weight: bold;
+
+}
+
